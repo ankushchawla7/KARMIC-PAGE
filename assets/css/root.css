@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Sunflower:wght@300;500;700&display=swap');
+
+:root {
+    /* font-size */
+    --fs-16: 16px;
+    --fs-20: 20px;
+    --fs-56: 56px;
+    --fs-64: 64px;
+    /* color */
+    --black: #040404;
+
+}
+
+.black_text {
+    color: var(--black);
+}
+
+.ff-sunflower {
+    font-family: 'Sunflower', sans-serif;
+}
+
+.ff-grotesk {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.fs-16 {
+    font-size: var(--fs-16);
+}
+
+.fs-20 {
+    font-size: var(--fs-20);
+}
+
+.fs-56 {
+    font-size: var(--fs-56);
+}
+
+
+.fs-64 {
+    font-size: var(--fs-64);
+}
+
+@media (min-width:319.98px) and (max-width:575.98px) {
+    :root {
+        --fs-64: 30px;
+        --fs-56: 26px;
+        --fs-16: 12px;
+        --fs-20: 16px;
+
+    }
+
+    .p-img::after {
+        font-size: 16px !important;
+    }
+
+    .butn {
+        padding: 10px 24px;
+    }
+
+    .mybtn {
+        padding: 10px 24px;
+    }
+
+    .project-bg {
+        background-size: 100% 125% !important;
+    }
+}
+
+@media (min-width:575.98px) and (max-width:767.98px) {
+    :root {
+        --fs-56: 35px;
+        --fs-64: 40px;
+        --fs-16: 14px;
+        --fs-20: 18px;
+    }
+
+    .project-bg {
+        background-size: 100% 125% !important;
+    }
+
+}
+
+@media (min-width:767.98px) and (max-width:991.98px) {
+    :root {
+        --fs-56: 40px;
+        --fs-64: 45px;
+        --fs-16: 14px;
+        --fs-20: 18px;
+    }
+}
+
+
+@media (min-width:991.98px) and (max-width:1199.98px) {
+    :root {
+        --fs-64: 50px;
+    }
+
+}
